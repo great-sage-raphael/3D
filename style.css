@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #1c1b1b;
+  }
+  
+  header {
+    margin-top: 3em;
+    text-align: center;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  
+  
+  #container3D canvas {
+    width: 100vw !important;
+    height: 100vh !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+  }
+  #scrollText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 10; /* Ensure the text is above the 3D model */
+}
